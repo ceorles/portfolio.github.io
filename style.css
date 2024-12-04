@@ -531,6 +531,16 @@ footer {
 }
 
 @media (max-width: 425px) {
+    /* ABOUT ME */
+    #about_section .education .indent-output {
+        font-size: 12px;
+    }
+    
+    #about_section .education .indent-output-1 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    
     /* PROJECTS */
     .projectcode h3 {
         font-size: 20px;
