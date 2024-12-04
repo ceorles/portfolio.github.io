@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITLE -->
+    <title>Ceorles' Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- CSS LINKED -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav-bar">
+        <a href="#home_section" class="nav-a">ceorles</a>
+        <ul class="link-container mb-0" id="navLinks">
+            <li><a href="#home_section">Home</a></li>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#skill_section">Skills</a></li>
+            <li><a href="#project_section">Projects</a></li>
+            <li><a href="#contact_section">Contact</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <!-- NAVIGATION -->
+
+    <!-- HOME -->
+    <main id="home_section">
+        <section class="home">
+            <div class="container">
+                <span class="name">
+                    <h1>Charles Andrei V. Berches</h1>
+                </span>
+                <p>I am a second-year Bachelor of Science in Information Technology student aspiring to become a game developer. I have a creative imagination that will enables me to craft unique and engaging elements, making my game more captivating and immersive.</p>
+                <a href="#about_section" class="learn-btn">MORE ABOUT ME</a>
+            </div>
+
+            <div class="img-container">
+                <img src="charles.jpg" alt="CHARLES ANDREI BERCHES" class="img-fluid">
+           </div>
+        </section>
+    </main>
+    <!-- HOME -->
+    
+    <!-- ABOUT ME -->
+    <main id="about_section">
+        <section class="about">
+            <div class="container">
+                <h2>ABOUT ME</h2>
+                <div class="developer-name">
+                    <hr>
+                    <p>&gt; Name:</p>
+                    <p class="output">"Charles Andrei V. Berches"</p>
+               </div>
+
+               <div class="developer-about">
+                    <p>&gt; Description:</p>
+                    <p class="output">
+                        I am a 19-year-old Information Technology student from Dalubhasaan ng Lungsod ng Lucena, currently residing in Ibabang Iyam, Lucena City. I have a deep passion for programming and aspire to become a professional software developer. My ultimate goal is to create my own video game one day, blending my love for technology with my creative ideas. I am dedicated to honing my skills and expanding my knowledge in the field of IT, with a strong focus on game development and the ever-evolving world of programming.
+                    </p>
+               </div>
+
+                <div class="developer-birth">
+                    <p>&gt; Birthdate</p>
+                    <p class="output">"06/17/2005"</p>
+                </div>
+
+                <div class="developer-interest">
+                    <p>&gt; Interest</p>
+                    <p class="special-output">-kay Gela lang interesado</p>
+                </div>
+
+               <div class="education">
+                    <p>&gt; Education</p>
+
+                    <!-- ELEMENTARY -->
+                    <p class="output">&gt; Elementary</p>
+                    <p class="indent-output">&gt; Lucena EAST II Elementary School (2011-2017)</p>
+                    
+                    <!--  HIGHSCHOOL -->
+                    <p class="output">&gt; Highschool</p>
+                    <p class="indent-output">&gt; Quezon National Highschool (2017-2021)</p>
+                    
+                    <!-- SENIOR HIGHSCHOOL -->
+                    <p class="output">&gt; Senior Highschool</p>
+                    <p class="indent-output">&gt; Quezon National Highschool (2021-2023)</p>
+
+                    <p class="indent-output-1"> "STEM - Science, Technology, Engineering, and Mathematics"</p>
+
+                    <p class="indent-output-1"> "With Honors"</p>
+
+                    <!-- COLLEGE -->
+                    <p class="output">&gt; College</p>
+                    <p class="indent-output">&gt; Dalubhasaan ng lungsod ng lucena (2023 - Present)</p>
+
+                    <p class="indent-output-1"> "Bachelor of Science in Information Technology"</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ABOUT ME -->
+        
+    <!-- MY SKILLS -->
+    <main id="skill_section">
+        <section class="skill">
+            <div class="container">
+                <h2>SKILLS</h2>
+                <hr class="mb-5">
+                <div class="bar learning mb-3"  data-skill="Python">70%</div>
+                <div class="bar back basic mb-3" data-skill="HTML">60%</div>
+                <div class="bar back intermediate mb-3" data-skill="CSS">40%</div>
+                <div class="bar front advanced mb-3" data-skill="JavaScript">10%</div>
+                <div class="bar front expert mb-3" data-skill="C#">40%</div>
+            </div>
+        </section>
+    </main>
+    <!-- MY SKILLS -->
+    
+    <!-- MY PROJECTS -->
+    <main id="project_section">
+        <section class="project">
+            <div class="container">
+                <h2>PROJECTS</h2>
+                <hr>
+                <div class="box">
+                    <div class="projectcode">
+                        <a href="https://ceorles.github.io/music_player.github.io/"><img src="MUSIC.png" alt="MUSIC-PLAYER" class="mb-0 img-fluid"></a>
+                        <h3 class="mt-0">Music Player</h3>
+                   </div>
+                    <div class="projectcode">
+                        <a href="https://ceorles.github.io/music_player.github.io/"><img src="KOI.png" alt="KOI-RESTO" class="mb-0 img-fluid"></a>
+                        <h3 class="mt-0">KOI Website</h3>
+                   </div>
+    
+                    <div class="projectcode">
+                        <a href="https://ceorles.github.io/enrollment_form.github.io/"><img src="ENROLLMENT.png" alt="ENROLLMENT" class="mb-0 img-fluid"></a>
+                        <h3 class="mt-0">Enrollment Form</h3>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- MY PROJECTS -->
+    
+    <!-- MY CONTACTS -->
+    <main id="contact_section">
+        <section class="contact">
+            <div class="container">
+                <h3 class="mb-4">CONTACT ME!</h3>
+                <span>Email: <a href="mailto:berchescharles@gmail.com">berchescharles@gmail.com<br></a></span>
+                <span>Phone: <a href="tel:09073775492">0907-377-5492<br></a></span>
+                <span>Facebook: <a href="https://www.facebook.com/ceorIes/">Charles Berches<br></a></span>
+                <span>Instagram: <a href="https://www.instagram.com/ceorles?igsh=bmpxbXlobzJwb3Vj">ceorles</a></span>
+            </div>
+        </section>
+    </main>
+    <!-- MY CONTACTS -->
+    
+    <!-- FOOTER -->
+    <footer>
+        <p class="mb-0">&copy; Berches, Charles Andrei V. | All rights reserved.</p>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- JS LINKED -->
+    <script src="main.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
