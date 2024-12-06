@@ -377,6 +377,11 @@ main h2 {
     width: 80%;
     height: 80%;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.projectcode img:hover {
+    transform: scale(1.01);
 }
 
 .projectcode h3 {
