@@ -209,6 +209,12 @@ main h2 {
     margin-left: 15px;
     font-weight: 600;
     text-shadow: 1px 1px 3px #00000075;
+    transition: transform 0.3s ease;
+}
+
+#about_section .special-output:hover {
+    color: #FFFFFF;
+    transform: scaleY(1.5);
 }
 
 #about_section .indent-output {
@@ -373,6 +379,7 @@ main h2 {
 
 #contact_section .contact .container {
     max-width: 1800px;
+    text-align: center;
 }
 
 #contact_section .contact .container h3 {
@@ -384,7 +391,7 @@ main h2 {
 #contact_section .contact .container span {
     color: #FFFFFF99;
     font-size: 20px;
-    margin-left: 25px;
+    margin: 0;
     font-weight: bold;
 }
 
@@ -414,9 +421,6 @@ footer {
 
 /* TABLET HAMBURGER */
 @media (max-width: 768px) {
-    hr {
-        width: 20%;
-    }
     /* NAVIGATION */
     .nav-bar {
         padding: 10px 30px;
@@ -532,6 +536,7 @@ footer {
 
 @media (max-width: 425px) {
     /* ABOUT ME */
+
     #about_section .education .indent-output {
         font-size: 12px;
     }
