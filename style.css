@@ -348,6 +348,23 @@ main h2 {
     white-space: nowrap;
 }
 
+/* SCROLL BAR */
+::-webkit-scrollbar{
+    height: 5px;
+    width: 4px;
+}
+
+/* TRACKER */
+::-webkit-scrollbar-track {
+    background: #F2F0EF; 
+  }
+
+/* THUMB SLIDER */
+::-webkit-scrollbar-thumb:horizontal{
+    background: #666666;
+    border-radius: 10px;
+}
+
 .projectcode {
     max-width: 100%;
     margin-top: 30px;
